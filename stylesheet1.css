@@ -25,15 +25,15 @@ h1 {
 h2 {
 	text-align: center;
 	color: aliceblue;
-	position: relative;
-	top: 50px;
+	margin: 20px 0px 30px;
 }
+
+
 
 p {
 	text-align: center;
 	color: #738CA6;
-	position: relative;
-	top: 60px;
+	margin: 35px 0px 35px;
 }
 
 ul {
@@ -81,4 +81,67 @@ a {
 	flex-wrap: wrap;
 
 }
+
+.favbands {
+	display: flex;
+	margin: 75px auto;
+	flex-direction: row;
+	width: 90%;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.bands h3 {
+	color: aliceblue;
+	background-color: black;
+	border-radius: 6px;
+	padding: 10px;
+	width: 40%;
+	margin: 20px auto;
+}
+
+.bands {
+	text-align: center;
+
+}
+
+#mmtitle {
+	width: 30%;
+}
+
+#ptitle {
+	width: 20%;
+}
+
+.otherhtwo {
+	margin: 80px auto 5px auto;
+	
+}
+
+#honorable-mentions.otherhtwo {
+	background-color: black;
+	border-radius: 6px;
+	padding: 10px;
+	width: 15%;
+}
+
+.musiclist {
+	margin: 80px auto;
+}
+
+.musiclist li {
+	text-align: center;
+	color: aliceblue;
+}
+
+.musiclist ul {
+	padding-left: 0;
+}
+
+
+
+
+
+
 
