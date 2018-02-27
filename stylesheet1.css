@@ -13,18 +13,28 @@ body {
 }
 
 h1 {
-	top: 40px;
-    margin: 20px 0 70px;
+    margin: 70px 0 70px;
 	font-family: 'Bowlby One SC', cursive;
 	font-size: 80px;
 	text-align: center;
 	color: aliceblue;
+	animation: fadein 3s;
+}
+
+@keyframes fadein {
+	from { opacity: 0;}
+	to { opacity: 1;}
 }
 
 h2 {
 	text-align: center;
 	color: aliceblue;
 	margin: 20px 0px 30px;
+	font-size: 60px;
+}
+
+#smoltext {
+	font-size: 30px;
 }
 
 #marchingcareer {
@@ -73,7 +83,7 @@ a {
 
 .image-gallery {
 	display: flex;
-	margin: 120px auto;
+	margin: 50px auto 120px;
 	justify-content: space-between;
 	flex-direction: row;
 	width: 900px;
@@ -85,7 +95,7 @@ a {
 	display: flex;
 	margin: 35px auto 80px;
 	flex-direction: row;
-	width: 90%;
+	width: 92%;
 	justify-content: space-between;
 	flex-wrap: wrap;
 	text-align: center;
@@ -103,6 +113,24 @@ a {
 .bands {
 	text-align: center;
 
+}
+
+.forhover:hover {
+	opacity: 0.5;
+}
+
+.otherpages {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	text-align: center;
+	justify-content: space-between;
+	width: 15%;
+	margin: auto;
+}
+
+#main-page {
+	margin: 70px 0px 20px;
 }
 
 #mmtitle {
@@ -123,6 +151,7 @@ a {
 	border-radius: 6px;
 	padding: 10px;
 	width: 15%;
+	font-size: 25px;
 }
 
 .musiclist {
@@ -138,9 +167,19 @@ a {
 	padding-left: 0;
 }
 
+#sptitle {
+	width: 55%;
+}
 
+#mntitle {
+	width: 25%;
+}
 
+.films {
+	width: 410px;
+	height: 580px;
+}
 
-
-
-
+.films:hover {
+	opacity: 0.5;
+}
