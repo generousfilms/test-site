@@ -26,6 +26,18 @@ h1 {
 	to { opacity: 1;}
 }
 
+#no-animationmusic {
+	animation: none;
+}
+
+#no-animationfilm {
+	animation: none;
+}
+
+#no-animationcompass {
+	animation: none;
+}
+
 h2 {
 	text-align: center;
 	color: aliceblue;
@@ -121,6 +133,7 @@ a {
 
 .otherpages {
 	display: flex;
+	display: block;
 	flex-wrap: wrap;
 	flex-direction: row;
 	text-align: center;
@@ -131,6 +144,11 @@ a {
 
 #main-page {
 	margin: 70px 0px 20px;
+}
+
+#second-page {
+	margin: 70px 0px 20px;
+	animation: none;
 }
 
 #mmtitle {
