@@ -40,7 +40,7 @@ h1 {
 
 h2 {
 	text-align: center;
-	color: aliceblue;
+	color: lightgray;
 	margin: 20px 0px 30px;
 	font-size: 60px;
 }
@@ -56,7 +56,7 @@ h2 {
 
 p {
 	text-align: center;
-	color: #738CA6;
+	color: lightgray;
 	margin: 35px 0px 35px;
 }
 
@@ -79,14 +79,15 @@ img {
 h4 {
 	text-align: center;
 	color: aliceblue;
+	margin: 45px;
 }
 
 a {
-	color: aliceblue;
+	color: lightskyblue;
 }
 
 .firstlist {
-	color: aliceblue;
+	color: lightgray;
 	text-align: center;
 	margin: auto;
 	top: 75px;
@@ -95,7 +96,7 @@ a {
 
 .image-gallery {
 	display: flex;
-	margin: 50px auto 120px;
+	margin: 50px auto 60px;
 	justify-content: space-between;
 	flex-direction: row;
 	width: 900px;
@@ -114,7 +115,7 @@ a {
 }
 
 .bands h3 {
-	color: aliceblue;
+	color: lightgray;
 	background-color: black;
 	border-radius: 6px;
 	padding: 10px;
@@ -131,14 +132,16 @@ a {
 	opacity: 0.5;
 }
 
+a:hover {
+	color: lightgray;
+}
 .otherpages {
 	display: flex;
-	display: block;
-	flex-wrap: wrap;
+	flex: wrap;
 	flex-direction: row;
 	text-align: center;
 	justify-content: space-between;
-	width: 15%;
+	width: 30%;
 	margin: auto;
 }
 
@@ -147,7 +150,7 @@ a {
 }
 
 #second-page {
-	margin: 70px 0px 20px;
+	margin: 70px 0px 60px;
 	animation: none;
 }
 
@@ -178,7 +181,7 @@ a {
 
 .musiclist li {
 	text-align: center;
-	color: aliceblue;
+	color: lightgray;
 }
 
 .musiclist ul {
@@ -200,4 +203,20 @@ a {
 
 .films:hover {
 	opacity: 0.5;
+}
+
+.videos {
+	display: flex;
+	flex-wrap: wrap;
+	margin: -40px auto 70px;
+}
+
+.hline {
+	border-top: 20px double #8c8b8b;
+	margin: 100px auto;
+}
+
+.vidtitles {
+	margin: auto;
+	text-align: center;
 }
